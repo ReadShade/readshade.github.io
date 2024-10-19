@@ -1,3 +1,8 @@
 site_name: ReadShade
+
 theme:
   name: material
+
+plugins:
+  - offline
+  - search
