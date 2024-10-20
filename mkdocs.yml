@@ -6,3 +6,6 @@ theme:
 plugins:
   - offline
   - search
+
+nav:
+  - Home: index
