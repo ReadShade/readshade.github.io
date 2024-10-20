@@ -1,15 +1,16 @@
-# Welcome to MkDocs
+# Welcome to ReadShade
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Offline Download
 
-## Commands
+<https://github.com/papadanku/ReadShade/archive/refs/heads/main.zip>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Building Instructions
 
-## Project layout
+- `mkdocs serve` - Start the live-reloading docs server.
+- `mkdocs build` - Build the documentation site.
+- `mkdocs -h` - Print help message and exit.
+
+## Project Layout
 
     mkdocs.yml    # The configuration file.
     docs/
