@@ -21,7 +21,7 @@ plugins:
   - search
 
 nav:
-  - Guides:
+  - Guides: index.md
     - Depth3D:
       - depth3d/basicguides/dlssframegen.md
       - depth3d/basicguides/reshadeversions.md
