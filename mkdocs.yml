@@ -2,15 +2,32 @@ site_name: ReadShade
 
 theme:
   name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - navigation.tabs
 
 plugins:
   - offline
   - search
 
 nav:
-  - Home: index
   - Guides:
     - Depth3D:
+      - depth3d/basicguides/dlssframegen.md
+      - depth3d/basicguides/reshadeversions.md
+      - depth3d/basicguides/posteffects.md
+      - depth3d/basicguides/windpi.md
       - Add-ons:
-        - depth3d/basicguides/genericdepth
-  
+        - depth3d/basicguides/genericdepth.md
+        - depth3d/basicguides/shadertoggler.md
+        - depth3d/basicguides/rest.md
