@@ -2,7 +2,7 @@
 
 ## Offline Download
 
-<https://github.com/papadanku/ReadShade/archive/refs/heads/main.zip>
+<https://github.com/papadanku/ReadShade/archive/refs/heads/gh-pages.zip>
 
 ## Building Instructions
 
