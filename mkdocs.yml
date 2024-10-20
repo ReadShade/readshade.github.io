@@ -9,3 +9,8 @@ plugins:
 
 nav:
   - Home: index
+  - Guides:
+    - Depth3D:
+      - Add-ons:
+        - depth3d/basicguides/genericdepth
+  
