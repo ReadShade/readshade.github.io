@@ -33,4 +33,5 @@ nav:
         - depth3d/basicguides/shadertoggler.md
         - depth3d/basicguides/rest.md
       - Hardware:
+        - depth3d/hardwareguides/viture.md
         - depth3d/hardwareguides/sr.md
