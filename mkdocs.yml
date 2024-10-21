@@ -26,6 +26,7 @@ theme:
   features:
     - navigation.footer
     - navigation.tabs
+    - navigation.tabs.sticky
 
 plugins:
   - offline
