@@ -27,8 +27,6 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.tabs.sticky
-    - content.action.view
-    - content.action.edit
 
 plugins:
   - offline
