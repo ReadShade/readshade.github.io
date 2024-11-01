@@ -33,7 +33,9 @@ plugins:
   - search
 
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
+    - technical.md
   - Guides:
     - generic/dlssframegen.md
     - generic/reshadeversions.md

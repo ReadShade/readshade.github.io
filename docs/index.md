@@ -1,21 +1,15 @@
+
 # Welcome to ReadShade
 
-## Offline Download
+ReadShade is a documentation site designed with simplicity and neutrality in mind. We aim to provide a straightforward and accessible platform for everyone to contribute and share knowledge. We've removed unnecessary complexity and barriers, ensuring that anyone can join our community.
 
-<https://github.com/papadanku/ReadShade/archive/refs/heads/gh-pages.zip>
+## Striving for Neutrality
 
-## Building Instructions
+We strive to remain neutral in our approach, avoiding conflict of interest.
 
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+## Simple to Contribute
 
-## Project Layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+We want to make it easy for anyone to contribute to ReadShade, regardless of their technical background. We've chosen Python and MkDocs Material as our core technologies. You can start creating and editing documentation quickly with just these two tools. There is no need to worry about complicated setup or configuration - install Python and MkDocs Material, and you're ready to go.
 
 ## Acknowledgements & Contributors
 
