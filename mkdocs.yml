@@ -39,7 +39,8 @@ nav:
     - generic/reshadeversions.md
     - generic/posteffects.md
     - generic/windpi.md
-    - generic/pcsx2.md
+    - Emulators:
+      - generic/pcsx2.md
     - Depth3D:
       - Add-ons:
         - depth3d/basicguides/genericdepth.md
