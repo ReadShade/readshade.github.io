@@ -34,8 +34,9 @@ plugins:
   - search
 
 nav:
-  - index.md
-  - technical.md
+  - Home:
+    - index.md
+    - technical.md
   - Guides:
     - ReShade General:
       - generic/reshadeversions.md
