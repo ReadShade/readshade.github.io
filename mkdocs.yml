@@ -35,11 +35,11 @@ plugins:
 nav:
   - Home: index.md
   - Guides:
-    - depth3d/basicguides/dlssframegen.md
-    - depth3d/basicguides/reshadeversions.md
-    - depth3d/basicguides/posteffects.md
-    - depth3d/basicguides/windpi.md
-    - depth3d/basicguides/pcsx2.md
+    - generic/dlssframegen.md
+    - generic/reshadeversions.md
+    - generic/posteffects.md
+    - generic/windpi.md
+    - generic/pcsx2.md
     - Depth3D:
       - Add-ons:
         - depth3d/basicguides/genericdepth.md
