@@ -35,6 +35,7 @@ plugins:
 nav:
   - Home: index.md
   - Guides:
+    - depth3d/basicguides/pcsx2.md
     - Depth3D:
       - depth3d/basicguides/dlssframegen.md
       - depth3d/basicguides/reshadeversions.md
