@@ -7,7 +7,7 @@ Well it also effects ReShade and Depth3D.
 
 This is a basic guide to fix this issue:
 
-![](images/windpi.jpg)
+![](images/windpi/windpi.jpg)
 
 1. The basic way to do this is to right click on the game's `.exe`.
 2. Select `Properties`

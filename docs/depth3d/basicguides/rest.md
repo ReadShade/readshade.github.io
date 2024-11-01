@@ -3,7 +3,7 @@
 
 Used to separate effects from the game and layer ReShade shader under the isolated element.
 
-![](images/rest.png)
+![](images/rest/rest.png)
 
 ## "How do we start?"
 
@@ -36,7 +36,7 @@ But, you can use REST in a lot of different games in the image use for the post.
 
 Your folder should look like this.
 
-![](images/wizordum.png)
+![](images/rest/wizordum.png)
 
 > Record Scratch You must be wondering how you got here.
 
@@ -48,13 +48,13 @@ A Basic ReShade install guide will be added later and linked here.
 
 Now, you should be able to start the game. ReShade should load and the add-on should be on the Add-on Tab.
 
-![](images/rest1.png)
+![](images/rest/rest1.png)
 
 Click the little arrow to open the a add-on. Also make sure to close the other add-ons to make it cleaner looking.
 
 Ok now that you done that it should look like this:
 
-![](images/rest2.png)
+![](images/rest/rest2.png)
 
 Ok close the ReShade menu and go in to the game. So we can use the add-on when we find in game UI.
 
@@ -64,21 +64,21 @@ The start of the game should be enough.
 
 Open up, ReShade and move it to the right and it should look like this:
 
-![](images/rest3.png)
+![](images/rest/rest3.png)
 
 > I am going to incease the ReShade Text size to make it easier to read.
 
 Now you should click on `New`.
 
-![](images/rest4.png)
+![](images/rest/rest4.png)
 
 It should open up like this:
 
-![](images/rest5.png)
+![](images/rest/rest5.png)
 
 You can now click `1. Activate [x]` and then click `2. Edit`.
 
-![](images/rest6.png)
+![](images/rest/rest6.png)
 
 Go ahead any type something in to the `3. Name` under the edit group.
 
@@ -108,7 +108,7 @@ The order should be:
 
 Now lets move on to searching for the UI. This is where it get a little more strange since now a new Window opens once you press `Settings`:
 
-![](images/rest7.png)
+![](images/rest/rest7.png)
 
 ## "Hold Up There. I want to get SuperDepth3D working with this aren't you not missing something?"
 
@@ -118,7 +118,7 @@ Oh Ya! We are missing something. @#$% Ok ya, Open up the main menu and enable th
 
 Now scroll down to the bottom of the shader and enable `REST_UI_MODE`:
 
-![](images/rest8.png)
+![](images/rest/rest8.png)
 
 > Set  0  to  1  for REST_UI_MODE.
 
@@ -128,32 +128,32 @@ OK, Now lets go back to to the Add-on Tab again and click. Settings.
 
 Well now, lets orientate our selves. It should look like this:
 
-![](images/rest9.png)
+![](images/rest/rest9.png)
 
 Ok now lets zoom in and let me mark out the order:
 
-![](images/rest10.png)
+![](images/rest/rest10.png)
 
 1. Click off `Apply all enabled techniques [ ]`
 2. Click and mark the 3D Shader. `[x]`
 
-    ![](images/rest11.png)
+    ![](images/rest/rest11.png)
 
 It should look like that now.
 
 Ok now lets focus on the 3rd part:
 
-![](images/rest12.png)
+![](images/rest/rest12.png)
 
 This is the list of active buffers. Now we need to pick one that Isolates UI. So lets click and find the one we are looking for.
 
 I found the buffer that seems to work for me. See how it only really the game and not the Weapon hand or UI in this game.
 
-![](images/rest13.png)
+![](images/rest/rest13.png)
 
 This is the correct one currently. So lets for with this by double clicking the hex value:
 
-![](images/rest14.png)
+![](images/rest/rest14.png)
 
 > See how it shows up as **yellow**.
 
@@ -163,13 +163,13 @@ Now we can close the window.
 
 Yes you do click `Save all Toggle Groups`:
 
-![](images/rest15.png)
+![](images/rest/rest15.png)
 
 > Close ReShade and look around!
 
 You will notice a issue. In this 3D image. Can you tell me what it is?
 
-![](images/rest16.png)
+![](images/rest/rest16.png)
 
 > I think I see it! Is it the center crosshair?
 
@@ -179,7 +179,7 @@ The first way is to just check if the game allows you to remove it.
 
 So lets looks in the game settings.
 
-![](images/rest17.png)
+![](images/rest/rest17.png)
 
 > Yep found it.
 
@@ -197,11 +197,11 @@ Yes you are correct. There is a work around for this issue that plagues `SbS` an
 
 I need you to go back to the `Shader Settings` and look for `Cursor Adjustments`.
 
-![](images/rest18.png)
+![](images/rest/rest18.png)
 
 Cursor type is set to `Off` You should set it to the one you like for your game:
 
-![](images/rest19.png)
+![](images/rest/rest19.png)
 
 > For this case I selected `Reticle`.
 
@@ -213,7 +213,7 @@ You will notice once you close ReShade it will move all around the screen. To fi
 
 Yes, you can. But, I will leave this up to you:
 
-![](images/rest20.png)
+![](images/rest/rest20.png)
 
 > It's not really Needed. But, doing it makes it look nice.
 

@@ -11,7 +11,7 @@ Then you will need to download the add-on it self: <https://github.com/FransBoum
 
 Make sure you download the correct one for your game.
 
-![](images/shadertoggler.jpg)
+![](images/shadertoggler/shadertoggler.jpg)
 
 ## Main Tutorial
 
@@ -31,7 +31,7 @@ So once you have Both ReShade and the Add-on Installed now we can start using it
 
 First thing you want to do is head over to the add-on Tab:
 
-![](images/shadertoggler2.png)
+![](images/shadertoggler/shadertoggler2.png)
 
 > I minimized the other add-ons to help make it clearer.
 
@@ -39,7 +39,7 @@ Also make sure your in the game and you have a problematic effect like Chromatic
 
 On the intro page this is effect we are targeting:
 
-![](images/shadertoggler3.png)
+![](images/shadertoggler/shadertoggler3.png)
 
 > Chromatic Aberration - On
 >
@@ -47,17 +47,17 @@ On the intro page this is effect we are targeting:
 
 ### Phase 2
 
-![](images/shadertoggler4.png)
+![](images/shadertoggler/shadertoggler4.png)
 
 The menu will change a little bit. But, all is good. Now you should click on `Edit`.
 
-![](images/shadertoggler5.png)
+![](images/shadertoggler/shadertoggler5.png)
 
 Now you want to Enter the name of the effect or what ever you like.
 
 In this example we are going to write out `CA 01` in the `Name Box`.
 
-![](images/shadertoggler6.png)
+![](images/shadertoggler/shadertoggler6.png)
 
 ### Phase 3
 
@@ -67,7 +67,7 @@ Click the `Shortcut Box` and press the shortcut keys now. Press `OK` now.
 
 It should look like this now.
 
-![](images/shadertoggler7.png)
+![](images/shadertoggler/shadertoggler7.png)
 
 Here we can set it to ☑️ activate at startup or not. It is up too you.
 
@@ -77,17 +77,17 @@ Now Press `OK` again.
 
 Now you can click on the `Change shaders` Button.
 
-![](images/shadertoggler8.png)
+![](images/shadertoggler/shadertoggler8.png)
 
 Let it run for a bit.
 
 It will look like this when it's running:
 
-![](images/shadertoggler9.png)
+![](images/shadertoggler/shadertoggler9.png)
 
 Then it will change to this:
 
-![](images/shadertoggler10.png)
+![](images/shadertoggler/shadertoggler10.png)
 
 > All is good now we can hunt for Shaders.
 
@@ -95,7 +95,7 @@ Then it will change to this:
 
 ### Phase 1
 
-![](images/shadertoggler11.png)
+![](images/shadertoggler/shadertoggler11.png)
 
 We will need to look at the `Num Pad` in this case.
 
@@ -107,15 +107,15 @@ In this case we will use `1` and `2` so we can Hunt for the Shader we want.
 
 Once we find and save the shader we where looking for by pressing `3` in this case. It will look like this:
 
-![](images/shadertoggler12.png)
+![](images/shadertoggler/shadertoggler12.png)
 
 Now you can click `Done`.
 
-![](images/shadertoggler13.png)
+![](images/shadertoggler/shadertoggler13.png)
 
 Now press the Shortcut listed for me it is `Ctrl + 1` to activate it:
 
-![](images/shadertoggler14.png)
+![](images/shadertoggler/shadertoggler14.png)
 
 Then the Shader should be disabled in this case.
 
@@ -125,7 +125,7 @@ Please Note that not all shaders will be accessible by this tool.
 
 You also want to click on the, `Save all Toggle Groups` Button.
 
-![](images/shadertoggler15.png)
+![](images/shadertoggler/shadertoggler15.png)
 
 ### Phase 2
 
@@ -155,7 +155,7 @@ The file will be where the game exe/add-on is.
 
 Also here is a image from in game with the effect disabled:
 
-![](images/shadertoggler16.png)
+![](images/shadertoggler/shadertoggler16.png)
 
 > Chromatic Aberration - Off
 

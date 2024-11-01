@@ -16,3 +16,8 @@
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Acknowledgements & Contributors
+
+- [The Depth3D Crew](https://blueskydefender.github.io/Depth3D/)
+- [[R-DEV]papadanku](https://github.com/papadanku)
