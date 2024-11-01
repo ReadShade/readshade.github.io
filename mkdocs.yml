@@ -38,10 +38,11 @@ nav:
     - index.md
     - technical.md
   - Guides:
-    - generic/dlssframegen.md
-    - generic/reshadeversions.md
-    - generic/posteffects.md
-    - generic/windpi.md
+    - ReShade General:
+      - generic/reshadeversions.md
+      - generic/windpi.md
+      - generic/dlssframegen.md
+      - generic/posteffects.md
     - Emulators:
       - generic/pcsx2.md
     - Depth3D:
