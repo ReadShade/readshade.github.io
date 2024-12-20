@@ -23,15 +23,15 @@ To disable these effects, follow these steps:
 
 2. **Edit the Engine.ini File**: Open the `Engine.ini` file and add the following lines at the bottom:
 
-    ```ini
-    [SystemSettings]
-    r.DepthOfFieldQuality=0
-    r.MotionBlur.Max=0
-    r.MotionBlurQuality=0
-    r.DefaultFeature.MotionBlur=0
-    r.SceneColorFringe.Max=0
-    r.SceneColorFringeQuality=0
-    ```
+```ini
+[SystemSettings]
+r.DepthOfFieldQuality=0
+r.MotionBlur.Max=0
+r.MotionBlurQuality=0
+r.DefaultFeature.MotionBlur=0
+r.SceneColorFringe.Max=0
+r.SceneColorFringeQuality=0
+```
 
 3. **Save and Set to Read-Only**: Save the file and set it to `Read Only` to prevent accidental changes.
 
