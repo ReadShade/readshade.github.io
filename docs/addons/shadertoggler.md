@@ -3,7 +3,7 @@
 
 ## Preface
 
-Okay, let's talk about the basics. You will need the add-on version of ReShade. [Read it here.](../../reshade/reshadeversions.md)
+Okay, let's talk about the basics. You will need the add-on version of ReShade. [Read it here.](../reshade/reshadeversions.md)
 
 ## Requirements
 

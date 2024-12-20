@@ -187,7 +187,7 @@ Under `Video`, set it to `nothing`.
 
 ## Other Ways
 
-The other two ways is to [use the ShaderToggler](shadertoggler.md).
+The other two ways is to [use the ShaderToggler](../../addons/shadertoggler.md).
 
 That, or modding the game to remove that texture. The last method is the hardest.
 
