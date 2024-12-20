@@ -1,29 +1,29 @@
-
 # Deleting Post Effects on Unreal Engine
 
-Depending on the game a few things can be done.
+## Introduction
+
+This guide provides instructions on how to delete or disable post effects on Unreal Engine 4 and Unreal Engine 5 games. The steps outlined in this guide can help improve performance and reduce visual issues.
 
 ## Unreal Engine 4
 
-- Motion Blur
-- Depth of Field
-- Chromatic Abberation
+The following post effects can be disabled in Unreal Engine 4 games:
 
-### Phase 1
+* Motion Blur
+* Depth of Field
+* Chromatic Aberration
 
-1. Head over to `%APPDATA%` or `%LOCALAPPDATA%`
+### Phase 1: Editing the Engine.ini File
 
-    - Steam
+To disable these effects, follow these steps:
 
-        ``"GAME"\Saved\Config\WindowsNoEditor `
+1. **Locate the Engine.ini File**: Head over to `%APPDATA%` or `%LOCALAPPDATA%` and navigate to the game's configuration directory:
 
-    - Windows Game Store
+    * **Steam**: `"GAME"\Saved\Config\WindowsNoEditor`
+    * **Windows Game Store**: `"GAME"\Saved\Config\WinGDK`
 
-        `"GAME"\Saved\Config\WinGDK`
+2. **Edit the Engine.ini File**: Open the `Engine.ini` file and add the following lines at the bottom:
 
-2. Open the `Engine.ini` file and at the bottom of the file. Add:
-
-    ```
+    ```ini
     [SystemSettings]
     r.DepthOfFieldQuality=0
     r.MotionBlur.Max=0
@@ -33,23 +33,21 @@ Depending on the game a few things can be done.
     r.SceneColorFringeQuality=0
     ```
 
-3. Save the file and set it to `Read Only`.
+3. **Save and Set to Read-Only**: Save the file and set it to `Read Only` to prevent accidental changes.
 
-There are other effects you can disable and control here. But, this guide only to get you going.
+### Notes
 
-Keep in mind if you change your setting in game you may need to restart so that this INI can remove the problem Post Effects.
-
-Also understand this may not always work in every instance.
-
-A good source for modding this INI is <https://www.pcgamingwiki.com/>
+* Keep in mind that changing settings in-game may require a restart to apply the changes made to the `Engine.ini` file.
+* This method may not work in every instance, and results may vary.
+* For more information on modding the `Engine.ini` file, visit the [PC Gaming Wiki](https://www.pcgamingwiki.com/).
 
 ## Unreal Engine 5
 
-Please Note *Unreal Engine 5* Needs Different Settings.
+**Note**: Unreal 5 games will be a **case-by-case basis** until we release an addon to disable specific effects.
 
-HellBlade 2:
+Unreal Engine 5 games require different settings to disable post effects. The following example is for HellBlade 2:
 
-```
+```ini
 [SystemSettings]
 r.SceneColorFringeQuality=0
 r.Tonemapper.GrainQuantization=0
@@ -62,17 +60,17 @@ r.NT.DOF.NTBokehTransform=0
 r.FilmGrain=0
 ```
 
-For letterboxing removal:
+To remove letterboxing, add the following lines:
 
-```
+```ini
 r.NT.AllowAspectRatioHorizontalExtension=0
 r.NT.EnableConstrainAspectRatio=0
 ```
 
 ## Shader Toggler
 
-This ReShade Add-on is free and can disable certain effects that can cause issues with Depth3D.
+The Shader Toggler is a free ReShade add-on that can disable certain effects that may cause issues with Depth3D. You can learn more about it in our [ReShade guide](../reshade/reshadeversions.md).
 
-You can read more about it [here](../reshade/reshadeversions.md).
+## Upcoming Content
 
-Video Guide coming soon™️
+A video guide on deleting post effects on Unreal Engine is coming soon. Stay tuned for more updates and tutorials! 📹
