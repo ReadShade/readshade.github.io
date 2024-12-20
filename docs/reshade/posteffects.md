@@ -73,6 +73,6 @@ r.NT.EnableConstrainAspectRatio=0
 
 This ReShade Add-on is free and can disable certain effects that can cause issues with Depth3D.
 
-You can read more about it [here](shadertoggler.md).
+You can read more about it [here](../reshade/reshadeversions.md).
 
 Video Guide coming soon™️

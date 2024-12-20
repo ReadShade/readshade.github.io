@@ -37,19 +37,24 @@ nav:
   - Home:
     - index.md
     - technical.md
-  - Guides:
-    - ReShade General:
-      - generic/reshadeversions.md
-      - generic/windpi.md
-      - generic/dlssframegen.md
-      - generic/posteffects.md
-    - Emulators:
-      - generic/pcsx2.md
-    - Depth3D:
-      - Add-ons:
-        - depth3d/basicguides/genericdepth.md
-        - depth3d/basicguides/shadertoggler.md
-        - depth3d/basicguides/rest.md
-      - Hardware:
-        - depth3d/hardwareguides/viture.md
-        - depth3d/hardwareguides/sr.md
+  - ReShade:
+    - reshade/reshadeversions.md
+    - reshade/windpi.md
+    - reshade/dlssframegen.md
+    - reshade/posteffects.md
+  - Add-Ons:
+    - addons/placeholder.md
+  - Hardware:
+    - hardware/placeholder.md
+  - Emulators:
+    - emulators/pcsx2.md
+  - Games:
+    - games/placeholder.md
+  - Depth3D:
+    - Add-ons:
+      - depth3d/basicguides/genericdepth.md
+      - depth3d/basicguides/shadertoggler.md
+      - depth3d/basicguides/rest.md
+    - Hardware:
+      - depth3d/hardwareguides/viture.md
+      - depth3d/hardwareguides/sr.md

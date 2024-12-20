@@ -47,7 +47,7 @@ You need to install ReShade under your current `API Setting`.
 
 ![](images/PCSX2/PCSX2_Renderer_Zoomed.png)
 
-So Now please turn off the emulator and install [ReShade](reshadeversions.md).
+So Now please turn off the emulator and install [ReShade](../reshade/reshadeversions.md).
 Once that is done....
 
 Please start your game and go into the ReShade menu and check the depth buffer.
