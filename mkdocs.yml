@@ -38,18 +38,21 @@ nav:
     - index.md
     - technical.md
   - ReShade:
+    - reshade/index.md
     - reshade/reshadeversions.md
     - reshade/windpi.md
     - reshade/dlssframegen.md
     - reshade/posteffects.md
   - Add-Ons:
+    - addons/index.md
     - addons/shadertoggler.md
   - Hardware:
-    - hardware/placeholder.md
+    - hardware/index.md
   - Emulators:
+    - emulators/index.md
     - emulators/pcsx2.md
   - Games:
-    - games/placeholder.md
+    - games/index.md
   - Depth3D:
     - Add-ons:
       - depth3d/basicguides/genericdepth.md
