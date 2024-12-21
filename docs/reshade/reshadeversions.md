@@ -24,7 +24,7 @@ If you're playing a single-player game but need to use an add-on, you can downlo
 
 If you need an older version of ReShade, there are several ways to get it. For versions 3.0.0 and earlier:
 
-1. You can download it directly from the ReShade website: https://reshade.me/downloads/ReShade_Setup_x.x.x.exe.
+1. You can download it directly from the ReShade website: <https://reshade.me/downloads/ReShade_Setup_x.x.x.exe>.
 2. For versions 5.0.0 and later, use [this link](https://reshade.me/downloads/ReShade_Setup_6.1.1_Addon.exe).
 
 ### Alternative Method
