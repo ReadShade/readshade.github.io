@@ -1,228 +1,130 @@
 
 # Reshade Effect Shader Toggler (R.E.S.T)
 
-Used to separate effects from the game and layer ReShade shader under the isolated element.
+The Reshade Effect Shader Toggler (R.E.S.T) is a powerful tool used to separate effects from the game and layer ReShade shaders under the isolated element.
 
 ![](images/rest/rest.png)
 
-## "How do we start?"
+## Introduction
 
-Welp, we are going to need to download the add-on first.
+To get started with R.E.S.T, you will need to download the add-on from the [official GitHub repository](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/tag/v1.3.15).
 
-You can download it from [here](https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/tag/v1.3.15).
+## Downloading and Installing the Add-on
 
-## "What with the multi files in there? What's going on where am I? What year is it? Do I need all the bits?"
+The release folder contains several files, including shaders, FX files, a license, and a README file. You can ignore the license and README files for now. You will need to use one of the `.addon#` files, but you can drag both into the same area where the ReShade.dll is located. For this guide, we will focus on the 64-bit add-on.
 
-Wow... Hang on there. So the contents of the release folder should be a few shaders the FX files.
+## Installing the Add-on
 
-There s also a License and a README File inside that folder.
-Ignore them for now.
+Place the `ReshadeEffectShaderToggler.addon64` file in the same location where you installed ReShade. This is usually in the game folder, near the `dxgi.dll` file.
 
-Yes, you do need all the bits. Well, You really only need one of the `.addon#`. But, you could drag them both in the same area where the ReShade.dll is.
+## Choosing a Game
 
-But, for are case we are going to to focus on the 64 bit add-on.
+For this guide, we will use the game [Wiz⊙rdum](https://store.steampowered.com/app/1715590/Wizordum/). However, you can use R.E.S.T with other games as well.
 
-## "OK, Stop, I grabbed that ReshadeEffectShaderToggler.addon64 where do I put it again?"
+## Setting Up the Add-on
 
-You place this add-on where you installed **ReShade** too. So look for the game folder and look for dxgi.dll in this case.
-
-Note: REST add-on can or may work for other api's. But, the support is spotty. So we are focusing on a simple game in the hopes that it will be more understandable.
-
-## "Wait, What game?"
-
-So in this guide I am going to focus on a game called, [Wiz⊙rdum](https://store.steampowered.com/app/1715590/Wizordum/).
-
-But, you can use REST in a lot of different games in the image use for the post. That is DaggerFall Unity.
-
-Your folder should look like this.
+Your game folder should look like this:
 
 ![](images/rest/wizordum.png)
 
-> Record Scratch You must be wondering how you got here.
+Make sure you have ReShade installed and the add-on file in the correct location.
 
-Well, I assumed that you already have the game installed. Also assumed that you installed ReShade already. This is why the image looks like this.
+## Launching the Game and Add-on
 
-A Basic ReShade install guide will be added later and linked here.
-
-## "OK, my files look like this in the game what should I do now?"
-
-Now, you should be able to start the game. ReShade should load and the add-on should be on the Add-on Tab.
+Start the game, and ReShade should load with the add-on enabled. You can find the add-on in the Add-on Tab:
 
 ![](images/rest/rest1.png)
 
-Click the little arrow to open the a add-on. Also make sure to close the other add-ons to make it cleaner looking.
+Click the arrow to open the add-on, and close other add-ons to make it cleaner.
 
-Ok now that you done that it should look like this:
+## Configuring the Add-on
+
+The add-on should look like this:
 
 ![](images/rest/rest2.png)
 
-Ok close the ReShade menu and go in to the game. So we can use the add-on when we find in game UI.
+Close the ReShade menu and go in-game to use the add-on.
 
-The start of the game should be enough.
-
-## "Now what? I am at the start of the game and I have control what do I do now?"
-
-Open up, ReShade and move it to the right and it should look like this:
+## Setting Up the Add-on in-game
+Open ReShade, move it to the right, and click `New`:
 
 ![](images/rest/rest3.png)
 
-> I am going to incease the ReShade Text size to make it easier to read.
-
-Now you should click on `New`.
-
 ![](images/rest/rest4.png)
 
-It should open up like this:
+A new window will open:
 
 ![](images/rest/rest5.png)
 
-You can now click `1. Activate [x]` and then click `2. Edit`.
+Follow these steps:
 
-![](images/rest/rest6.png)
+1. Click `1. Activate [x]`
+2. Click `2. Edit`
+3. Type a name in the `3. Name` field
+4. Create a `4. Shortcut`
+5. Click `5. OK`
 
-Go ahead any type something in to the `3. Name` under the edit group.
+## Enabling 3D Shader
 
-Then you should make a `4. Shortcut.` Once that is done click `5. OK.`
-
-The order should be:
-
-1. Activate
-2. Edit
-3. Name
-4. Shortcut
-5. OK
-
-Now lets move on to searching for the UI. This is where it get a little more strange since now a new Window opens once you press `Settings`.
-
-Go ahead any type something in to the `3`. `Name` under the edit group.
-
-Then you should make a `4. Shortcut`. Once that is done click `5. OK`.
-
-The order should be:
-
-1. Activate
-2. Edit
-3. Name
-4. Shortcut
-5. OK
-
-Now lets move on to searching for the UI. This is where it get a little more strange since now a new Window opens once you press `Settings`:
-
-![](images/rest/rest7.png)
-
-## "Hold Up There. I want to get SuperDepth3D working with this aren't you not missing something?"
-
-Oh Ya! We are missing something. @#$% Ok ya, Open up the main menu and enable the 3D Shader.
-
-> You don't need to do this if you are not using Side by Side or Top n Bottom.
-
-Now scroll down to the bottom of the shader and enable `REST_UI_MODE`:
+If you want to use SuperDepth3D with R.E.S.T, you need to enable the 3D shader. Open the main menu, enable the 3D shader, and scroll down to the bottom of the shader. Enable `REST_UI_MODE` by setting it to `1`:
 
 ![](images/rest/rest8.png)
 
-> Set  0  to  1  for REST_UI_MODE.
+## Configuring the Add-on Settings
 
-OK, Now lets go back to to the Add-on Tab again and click. Settings.
+Go back to the Add-on Tab and click `Settings`:
 
-## "Ok, Now I got a other window what do I do now?"
+![](images/rest/rest7.png)
 
-Well now, lets orientate our selves. It should look like this:
+A new window will open:
 
 ![](images/rest/rest9.png)
 
-Ok now lets zoom in and let me mark out the order:
-
-![](images/rest/rest10.png)
+Follow these steps:
 
 1. Click off `Apply all enabled techniques [ ]`
-2. Click and mark the 3D Shader. `[x]`
+2. Mark the 3D shader `[x]`
 
-    ![](images/rest/rest11.png)
+![](images/rest/rest11.png)
 
-It should look like that now.
+## Isolating the UI
 
-Ok now lets focus on the 3rd part:
+Focus on the list of active buffers:
 
 ![](images/rest/rest12.png)
 
-This is the list of active buffers. Now we need to pick one that Isolates UI. So lets click and find the one we are looking for.
-
-I found the buffer that seems to work for me. See how it only really the game and not the Weapon hand or UI in this game.
-
-![](images/rest/rest13.png)
-
-This is the correct one currently. So lets for with this by double clicking the hex value:
+Find the buffer that isolates the UI. Double-click the hex value to select it:
 
 ![](images/rest/rest14.png)
 
-> See how it shows up as **yellow**.
+The selected buffer should turn yellow.
 
-Now we can close the window.
+## Saving Your Progress
 
-## "Ok, I got to where you isolated that thingy. So do I click "Save all Toggle Groups?"
-
-Yes you do click `Save all Toggle Groups`:
+Close the window and click `Save all Toggle Groups`:
 
 ![](images/rest/rest15.png)
 
-> Close ReShade and look around!
+## Troubleshooting
 
-You will notice a issue. In this 3D image. Can you tell me what it is?
+You may notice issues with the center crosshair. There are three ways to deal with this:
 
-![](images/rest/rest16.png)
+1. Check if the game allows you to remove it
+2. Use the ShaderToggler
+3. Mod the game to remove the texture
 
-> I think I see it! Is it the center crosshair?
+## Cursor Adjustments
 
-Yes, the issue is the center crosshair. There are three ways to deal with it.
-
-The first way is to just check if the game allows you to remove it.
-
-So lets looks in the game settings.
-
-![](images/rest/rest17.png)
-
-> Yep found it.
-
-Under `Video`, set it to `nothing`.
-
-## Other Ways
-
-The other two ways is to [use the ShaderToggler](../../addons/shadertoggler.md).
-
-That, or modding the game to remove that texture. The last method is the hardest.
-
-## "Umm I have a problem and it only seems to happen in Side by Side and Top n Bottom. But, my cursor to click on things and aiming are all over the place can I you fix it?"
-
-Yes you are correct. There is a work around for this issue that plagues `SbS` and `TnB` formats.
-
-I need you to go back to the `Shader Settings` and look for `Cursor Adjustments`.
+If you experience issues with the cursor in Side by Side and Top n Bottom formats, go to the `Shader Settings` and look for `Cursor Adjustments`:
 
 ![](images/rest/rest18.png)
 
-Cursor type is set to `Off` You should set it to the one you like for your game:
+Set the cursor type to the one you prefer:
 
 ![](images/rest/rest19.png)
 
-> For this case I selected `Reticle`.
+You can use `Mouse 5` to switch layers.
 
-You can use `Mouse 5` to switch layers. So when you click it, it can go to the main menu or back to the game.
+## Sharing Your Configuration
 
-You will notice once you close ReShade it will move all around the screen. To fix this, hit escape and/or go to a in game menu. Then, it should work as it should.
-
-## "This look fine. But, the map is kind of broken on the edges. Can I fix that?"
-
-Yes, you can. But, I will leave this up to you:
-
-![](images/rest/rest20.png)
-
-> It's not really Needed. But, doing it makes it look nice.
-
-## "This worked for this game. But, what if I want to share this with other people?"
-
-You know when you clicked, `Save all Toggle Groups`.
-
-Well that generates a file in the same folder where the add-on is.
-
-It will be called  `ReshadeEffectShaderToggler.ini`
-
-To share it you can post it [this forum](https://discord.com/channels/305472403977404416/1248039510244065410).
+When you click `Save all Toggle Groups`, a file called `ReshadeEffectShaderToggler.ini` is generated in the same folder as the add-on. You can share this file with others by posting it on the [ReShade forum](https://discord.com/channels/305472403977404416/1248039510244065410).
