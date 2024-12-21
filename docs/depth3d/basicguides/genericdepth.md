@@ -1,10 +1,14 @@
 
 # Generic Depth
 
-## Preface
+## Introduction to Generic Depth
 
-Okay, let's talk about the basics. You will need the add-on version of ReShade. [Read it here.](../../reshade/reshadeversions.md)
+The Generic Depth add-on is a powerful tool for enhancing the depth effects in your games. To get started, you will need to have the add-on version of ReShade installed. You can learn more about the different versions of ReShade [here](../../reshade/reshadeversions.md).
 
-Then you will need to download the add-on it self [here](https://discord.com/channels/305472403977404416/1081018051526406195).
+## Downloading the Generic Depth Add-on
 
-Make sure you use the correct one for your game.
+To use the Generic Depth add-on, you will need to download it from the [official Discord channel](https://discord.com/channels/305472403977404416/1081018051526406195). Make sure to select the correct version of the add-on for your game to ensure compatibility.
+
+Please note that using the correct version of the add-on is crucial for optimal performance and to avoid any potential issues. 
+
+You can proceed with installing the add-on once you have downloaded the correct version.

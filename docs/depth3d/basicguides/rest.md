@@ -58,11 +58,11 @@ A new window will open:
 
 Follow these steps:
 
-1. Click `1. Activate [x]`
-2. Click `2. Edit`
-3. Type a name in the `3. Name` field
-4. Create a `4. Shortcut`
-5. Click `5. OK`
+1. Click `Activate [x]`
+2. Click `Edit`
+3. Type a name in the `Name` field
+4. Create a `Shortcut`
+5. Click `OK`
 
 ## Enabling 3D Shader
 
